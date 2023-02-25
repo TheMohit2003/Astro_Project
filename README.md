@@ -1,5 +1,7 @@
 # Astro Starter Kit: Minimal
-
+```
+https://sprightly-valkyrie-f2fe1f.netlify.app/
+```
 ```
 npm create astro@latest -- --template minimal
 ```
