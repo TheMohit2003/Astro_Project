@@ -2,8 +2,8 @@
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import Navigation from '../components/Navigation.astro';
-const pageTitle="Home Page"
-import '../styles/global.css'
+const pageTitle = 'Home Page';
+import '../styles/global.css';
 ---
 
 <html lang='en'>
@@ -15,8 +15,11 @@ import '../styles/global.css'
     <title>{pageTitle}</title>
   </head>
   <body>
-    <Header/>
+    <Header />
     <h1>{pageTitle}</h1>
-    <Footer/>
+    <Footer />
+    <script>
+      import '../scripts/menu';
+    </script>
   </body>
 </html>
